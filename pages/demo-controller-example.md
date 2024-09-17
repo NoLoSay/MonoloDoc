@@ -15,6 +15,11 @@ export class DemoService {
 
 >demo.controller.spec.ts
 ```TS
+import { Test, TestingModule } from '@nestjs/testing';
+import { DemoController } from './demo.controller';
+import { DemoService } from '@noloback/demo.service';
+import { RootTestModule } from '@noloback/root.test';
+
 describe('DemoController', () => {
   let controller: DemoController;
 
