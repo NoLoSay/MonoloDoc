@@ -8,6 +8,6 @@
 
 ### Schema infra
 
-[NoLoInfra image](static/noloinfra.png)
+![NoLoInfra image](static/noloinfra.png)
 
 

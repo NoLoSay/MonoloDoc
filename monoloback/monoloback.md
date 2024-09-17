@@ -50,4 +50,4 @@ See: https://nx.dev/getting-started/intro
 
 ### NX Cloud example PR
 
-[NX Cloud example PR Image](static/nx-example.png)
+![NX Cloud example PR Image](static/nx-example.png)
