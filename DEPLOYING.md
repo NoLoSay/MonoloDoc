@@ -27,7 +27,7 @@ rsync -av -e 'ssh -p <port>' <image-file> <user>@<vm>:<location>
 
 ### On the production VM
 
-6. Load the images into docker
+5. Load the images into docker
 
 ```
 sudo docker load < monoloapi
