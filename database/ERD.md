@@ -16,7 +16,7 @@
 - [Front](#front)
 
 ## Localization
-```mermaid
+<pre class="mermaid">
 erDiagram
 "Country" {
   Int id PK
@@ -66,7 +66,7 @@ erDiagram
 "Department" }o--|| "Country" : country
 "City" }o--|| "Department" : department
 "Address" }o--|| "City" : city
-```
+</pre>
 
 ### `Country`
 Represents a country with its geographical details and departments.
@@ -127,7 +127,7 @@ Represents an address within a city, including its geographical details.
 
 
 ## Users
-```mermaid
+<pre class="mermaid">
 erDiagram
 "User" {
   Int id PK
@@ -166,7 +166,7 @@ erDiagram
 "Profile" }o--|| "User" : user
 "Sanctions" }o--|| "User" : user
 "Sanctions" }o--o| "Profile" : issuer
-```
+</pre>
 
 ### `User`
 Represents a user in the system, including their profile and authentication details.
@@ -213,7 +213,7 @@ Represents a sanction imposed on a user.
 
 
 ## OAuth
-```mermaid
+<pre class="mermaid">
 erDiagram
 "OAuthProviders" {
   Int providerId PK
@@ -226,7 +226,7 @@ erDiagram
   Int id PK
 }
 "OAuthProviderUser" }o--|| "OAuthProviders" : provider
-```
+</pre>
 
 ### `OAuthProviders`
 Represents the OAuth providers available for authentication.
@@ -246,7 +246,7 @@ Represents the association between an OAuth provider and a user.
 
 
 ## Persons
-```mermaid
+<pre class="mermaid">
 erDiagram
 "Person" {
   Int id PK
@@ -260,7 +260,7 @@ erDiagram
   DateTime updatedAt
   DateTime deletedAt "nullable"
 }
-```
+</pre>
 
 ### `Person`
 Represents a person in the system.
@@ -279,7 +279,7 @@ Represents a person in the system.
 
 
 ## Items
-```mermaid
+<pre class="mermaid">
 erDiagram
 "ItemCategory" {
   Int id PK
@@ -313,7 +313,7 @@ erDiagram
 }
 "ItemType" }o--|| "ItemCategory" : itemCategory
 "Item" }o--o| "ItemType" : itemType
-```
+</pre>
 
 ### `ItemCategory`
 Represents a category of items.
@@ -356,7 +356,7 @@ Represents an item in the system.
 
 
 ## Videos
-```mermaid
+<pre class="mermaid">
 erDiagram
 "SignLanguage" {
   Int id PK
@@ -402,7 +402,7 @@ erDiagram
 "Video" }o--o| "SignLanguage" : signLanguage
 "Video" }o--|| "HostingProvider" : hostingProvider
 "UserlikesVideos" }o--|| "Video" : video
-```
+</pre>
 
 ### `SignLanguage`
 Represents a sign language used in videos.
@@ -459,7 +459,7 @@ Represents the relationship between users and videos they like.
 
 
 ## Sites
-```mermaid
+<pre class="mermaid">
 erDiagram
 "Site" {
   Int id PK
@@ -488,7 +488,7 @@ erDiagram
   Int profileId FK
 }
 "SiteHasManager" }o--|| "Site" : site
-```
+</pre>
 
 ### `Site`
 Represents a site in the system.
@@ -524,7 +524,7 @@ Represents the relationship between sites and their managers.
 
 
 ## Exhibitions
-```mermaid
+<pre class="mermaid">
 erDiagram
 "Exhibition" {
   Int id PK
@@ -544,7 +544,7 @@ erDiagram
   Int exhibitionId FK
 }
 "ExhibitedItem" }o--|| "Exhibition" : exhibition
-```
+</pre>
 
 ### `Exhibition`
 Represents an exhibition in the system.
@@ -571,7 +571,7 @@ Represents an item exhibited in an exhibition.
 
 
 ## Media
-```mermaid
+<pre class="mermaid">
 erDiagram
 "Picture" {
   Int id PK
@@ -584,7 +584,7 @@ erDiagram
   Int itemId FK "nullable"
   Int siteId FK "nullable"
 }
-```
+</pre>
 
 ### `Picture`
 Represents a picture in the system.
@@ -602,7 +602,7 @@ Represents a picture in the system.
 
 
 ## Logs
-```mermaid
+<pre class="mermaid">
 erDiagram
 "UserLoginLog" {
   Int id PK
@@ -628,7 +628,7 @@ erDiagram
   DateTime createdAt
   Int profileId FK
 }
-```
+</pre>
 
 ### `UserLoginLog`
 Represents a log of user login attempts.
@@ -665,7 +665,7 @@ Represents a log of sensitive user actions.
 
 
 ## Front
-```mermaid
+<pre class="mermaid">
 erDiagram
 "RoleColor" {
   Int id PK
@@ -697,7 +697,7 @@ erDiagram
   ValidationStatus validationStatus UK
   String color
 }
-```
+</pre>
 
 ### `RoleColor`
 Represents the color associated with each user role.
