@@ -6,7 +6,7 @@
 
 ### [Test/validation process and deploying a project](deploying.md)
 
-### Schema infra
+### Infrastructure schema
 
 ![NoLoInfra image](static/noloinfra.png)
 
