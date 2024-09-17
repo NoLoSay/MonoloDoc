@@ -16,19 +16,20 @@ export class DemoService {
 >demo.controller.spec.ts
 ```TS
 describe('DemoController', () => {
-	let controller: DemoController;
+  let controller: DemoController;
 
-	beforeEach(async () => {
-		const module: TestingModule = await Test.createTestingModule({
-			controllers: [DemoController],
-			providers: [DemoService],
-		}).compile();
+  beforeEach(async () => {
+    const module: TestingModule = await Test.createTestingModule({
+      controllers: [DemoController],
+      providers: [DemoService],
+      imports: [RootTestModule],
+    }).compile();
 
-		controller = module.get<DemoController>(DemoController);
-	});
+    controller = module.get<DemoController>(DemoController);
+  });
 
-	it('should be defined', () => {
-		expect(controller).toBeDefined();
-	});
+  it('should be defined', () => {
+    expect(controller).toBeDefined();
+  });
 });
 ```
