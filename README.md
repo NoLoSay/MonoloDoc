@@ -7,6 +7,7 @@
 	1. [Context](#context)
 	2. [Versioning](#versioning)
 	3. [Good practices](#good-practices)
+ 	4. [Module graph](https://nolosay.github.io/MonoloDoc/nx-graph.html#/projects/all?groupByFolder=true)
 2. [Setting-up your environment](#setting-up-your-environment)
 3. [Getting started with NX](#getting-started-with-nx)
 4. [Developing on Monoloback](pages/developing-on-monoloback.md)
@@ -42,7 +43,6 @@ See [monoloback-contributing](pages/monoloback-contributing.md)
 Paste this [Template Environment](pages/template-environment.md) into a `.env` file at the root of the repository and fill the missing data. Most of the data has been removed for security purposes. Do not hesitate to ask the team for help if needed. 
 
 # Getting started with NX
-
 
 See: https://nx.dev/getting-started/intro
 
