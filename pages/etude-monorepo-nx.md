@@ -2,7 +2,7 @@
 
 ## Ce fichier est une archive expliquant le choix de passer en Monorepo
 
-## Il n'est donc pas a jour mais est volontairement laisse comme tel afin de demontrer les recherches pour effectuer ce choix
+## Il n'est donc pas à jour mais est volontairement laissé comme tel afin de démontrer les recherches pour effectuer ce choix
 
 --------
 
