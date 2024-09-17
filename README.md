@@ -45,3 +45,5 @@ Paste this [Template Environment](pages/template-environment) into a `.env` file
 
 
 See: https://nx.dev/getting-started/intro
+
+[NX Cloud workspace](https://cloud.nx.app/orgs/652159fe39cec102ad48ba93/workspaces/6521644d142961716fffcefb/overview)
