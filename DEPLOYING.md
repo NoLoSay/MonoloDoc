@@ -2,7 +2,9 @@
 
 1. Build the docker images
 
-`docker compose build`
+```
+docker compose build
+```
 
 2. Export the images as files
 
@@ -15,7 +17,9 @@ docker save noloadmin-intra -o noloadmin
 
 3. Send them to the VM using rsync
 
-`rsync -av -e 'ssh -p <port>' <image-file> <user>@<vm>:<location>`
+```
+rsync -av -e 'ssh -p <port>' <image-file> <user>@<vm>:<location>
+```
 
 4. Connect to the VM via ssh
 
@@ -28,4 +32,6 @@ sudo docker load < monoloapi
 
 6. Restart the docker environment
 
-`sudo docker compose up`
+```
+sudo docker compose up
+```
