@@ -15,18 +15,18 @@ MUST be in imperative mood (ie: Add contributing guidelines)
 ## Structure
 
 ### Controller structure (example with DemoController)
-- Controller file location: src/controllers/demo/demo.controller.ts
-- Test file location: src/controllers/demo/demo.controller.spec.ts
+- Controller file location: libs/demo.controller/demo.controller.ts
+- Test file location: libs/demo.controller/demo.controller.spec.ts
 
 ### Service structure (example with VideoEditorService)
-- Service file location: src/services/video-editor/video-editor.service.ts
-- Test file location: src/services/video-editor/video-editor.service.spec.ts
+- Service file location: libs/video-editor.service/video-editor.service.ts
+- Test file location: libs/video-editor.service/video-editor.service.spec.ts
 
 ## Testing
 
 Unit tests are located in a .spec.ts file in their component or service folder
 
-e2e tests are located in the test/ folder
+e2e tests are located in the apps/*app*-e2e folder
 
 ## API Routes
 
