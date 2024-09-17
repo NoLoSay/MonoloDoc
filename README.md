@@ -24,7 +24,7 @@ We will be using semantic versioning (MAJOR.MINOR.PATCH)
 
 ### Good practices
 
-See https://github.com/NoLoSay/MonoloBack/blob/main/CONTRIBUTING.md
+See [CONTRIBUTING.md](CONTRIBUTING.md)
 
 # Setting-up your environment
 
