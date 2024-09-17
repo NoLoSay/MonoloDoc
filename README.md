@@ -9,15 +9,15 @@
 	3. [Good practices](#good-practices)
 2. [Setting-up your environment](#setting-up-your-environment)
 3. [Getting started with NX](#getting-started-with-nx)
-4. [Developing on Monoloback](pages/developing-on-monoloback)
-4. [Deploying](pages/deploying)
+4. [Developing on Monoloback](pages/developing-on-monoloback.md)
+4. [Deploying](pages/deploying.md)
 
 
 # Introduction
 
 ### Context
 
-See [Nx Monorepo](pages/etude-monorepo-nx)
+See [Nx Monorepo](pages/etude-monorepo-nx.md)
 
 ### Versioning
 
@@ -25,7 +25,7 @@ We will be using semantic versioning (MAJOR.MINOR.PATCH)
 
 ### Good practices
 
-See [monoloback-contributing](pages/monoloback-contributing)
+See [monoloback-contributing](pages/monoloback-contributing.md)
 
 # Setting-up your environment
 
@@ -39,7 +39,7 @@ See [monoloback-contributing](pages/monoloback-contributing)
 
 ### Creating an environment file
 
-Paste this [Template Environment](pages/template-environment) into a `.env` file at the root of the repository and fill the missing data. Most of the data has been removed for security purposes. Do not hesitate to ask the team for help if needed. 
+Paste this [Template Environment](pages/template-environment.md) into a `.env` file at the root of the repository and fill the missing data. Most of the data has been removed for security purposes. Do not hesitate to ask the team for help if needed. 
 
 # Getting started with NX
 
