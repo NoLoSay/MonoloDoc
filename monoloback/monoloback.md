@@ -31,15 +31,17 @@ See [monoloback-contributing](pages/monoloback-contributing.md)
 
 ### Tools and programs used
 
-- [Docker](https://code.visualstudio.com/docs/setup/setup-overview) & [Docker Compose](https://docs.docker.com/compose/install/)
+- [Docker](https://docs.docker.com/get-started/get-docker/) & [Docker Compose](https://docs.docker.com/compose/install/)
 - [VSCode](https://code.visualstudio.com/docs/setup/setup-overview) (you can use any IDE you want but these ones have integrated support from NX)
 - [NodeJS](https://nodejs.org/en/download/) 18 or above with [Yarn](https://classic.yarnpkg.com/lang/en/docs/install)
 - [Prisma](https://www.prisma.io) with [Prisma Studio](https://www.prisma.io/studio)
 - [NX](https://nx.dev/getting-started/intro) with its [IDE extensions](https://nx.dev/core-features/integrate-with-editors)
 
-### Creating an environment file
+### Creating an environment file and the secrets folder
 
-Paste this [Template Environment](pages/template-environment.md) into a `.env` file at the root of the repository and fill the missing data. Most of the data has been removed for security purposes. Do not hesitate to ask the team for help if needed. 
+Paste this [Template Environment](https://raw.githubusercontent.com/NoLoSay/MonoloDoc/main/monoloback/pages/template-environment.md) into a `.env` file at the root of the repository and fill the missing data. Most of the data has been removed for security purposes. Do not hesitate to ask the team for help if needed. 
+
+Create a folder named `secrets` at the root of the repository and ask one of your coworkers to give you the files that goes inside
 
 # Getting started with NX
 
