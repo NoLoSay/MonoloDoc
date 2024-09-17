@@ -10,7 +10,7 @@
 2. [Setting-up your environment](#setting-up-your-environment)
 3. [Getting started with NX](#getting-started-with-nx)
 4. [Developing on Monoloback](pages/developing-on-monoloback)
-4. [Deploying](DEPLOYING)
+4. [Deploying](pages/DEPLOYING)
 
 
 # Introduction
@@ -25,7 +25,7 @@ We will be using semantic versioning (MAJOR.MINOR.PATCH)
 
 ### Good practices
 
-See [CONTRIBUTING](CONTRIBUTING)
+See [CONTRIBUTING](pages/CONTRIBUTING)
 
 # Setting-up your environment
 
