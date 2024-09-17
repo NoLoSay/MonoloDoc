@@ -1,12 +1,13 @@
 >Git repository: https://github.com/NoLoSay/MonoloBack
 
+>[NX Modules graph](nx-graph.html#/projects/all?groupByFolder=true)
+
 # MonoloBack Documentation 
 
 1. [Introduction](#introduction)
 	1. [Context](#context)
 	2. [Versioning](#versioning)
 	3. [Good practices](#good-practices)
-	4. [Module graph](nx-graph.html#/projects/all?groupByFolder=true)
 2. [Setting-up your environment](#setting-up-your-environment)
 3. [Getting started with NX](#getting-started-with-nx)
 4. [Developing on Monoloback](pages/developing-on-monoloback.md)
