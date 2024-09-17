@@ -11,8 +11,6 @@
 2. [Setting-up your environment](#setting-up-your-environment)
 3. [Getting started with NX](#getting-started-with-nx)
 4. [Developing on Monoloback](pages/developing-on-monoloback.md)
-4. [Deploying](pages/deploying.md)
-
 
 # Introduction
 
@@ -49,3 +47,7 @@ Create a folder named `secrets` at the root of the repository and ask one of you
 See: https://nx.dev/getting-started/intro
 
 [NX Cloud workspace](https://cloud.nx.app/orgs/652159fe39cec102ad48ba93/workspaces/6521644d142961716fffcefb/overview)
+
+### NX Cloud example PR
+
+[NX Cloud example PR Image](static/nx-example.png)

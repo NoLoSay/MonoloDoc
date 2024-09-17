@@ -4,4 +4,10 @@
 
 ### [NoLoAdmin Documentation](noloadmin/noloadmin.md)
 
-[NoLoInfra image](noloinfra.png)
+### [Deploying a project](deploying.md)
+
+### Schema infra
+
+[NoLoInfra image](static/noloinfra.png)
+
+
