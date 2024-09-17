@@ -8,8 +8,9 @@
 	2. [Versioning](#versioning)
 	3. [Good practices](#good-practices)
 2. [Setting-up your environment](#setting-up-your-environment)
-4. [Getting started with NX](#getting-started-with-nx)
-5. [Developing on Monoloback](#developing-on-monoloback)
+3. [Getting started with NX](#getting-started-with-nx)
+4. [Developing on Monoloback](pages/developing-on-monoloback.md)
+4. [Deploying](DEPLOYING.md)
 
 
 # Introduction
@@ -44,7 +45,3 @@ Paste this [Template Environment](pages/template-environment.md) into a `.env` f
 
 
 See: https://nx.dev/getting-started/intro
-
-# Developing on Monoloback
-
-See [Developing on Monoloback](pages/developing-on-monoloback.md)
