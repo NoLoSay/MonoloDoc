@@ -1,3 +1,11 @@
+# IMPORTANT
+
+Ce fichier est une archive expliquant le choix de passer en Monorepo
+
+Il n'est donc pas a jour et reflete les recherches pour effectuer ce choix
+
+--------
+
 # Architecture actuelle (Subrepos)
 
 ### Avantages
@@ -23,7 +31,7 @@
 
 ------
 
-# Architexture future (Monorepo)
+# Architecture future (Monorepo)
 
 ### Avantages
 
