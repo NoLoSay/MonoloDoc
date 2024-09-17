@@ -1,5 +1,14 @@
 # Deploying
 
+### Validation process
+
+The staging branch is validated ONLY IF
+- [x] The app is building
+- [x] All unit tests are passing
+- [x] The developers have fully tested their works
+- [x] A working prisma migration file is provided (if applicable)
+- [x] The depending projects have implemented the breaking changes (if any) and are ready to update at the same time
+
 ### On the machine with validated staging branch
 
 1. Build the docker images

@@ -4,7 +4,7 @@
 
 ### [NoLoAdmin Documentation](noloadmin/noloadmin.md)
 
-### [Deploying a project](deploying.md)
+### [Test/validation process and deploying a project](deploying.md)
 
 ### Schema infra
 
