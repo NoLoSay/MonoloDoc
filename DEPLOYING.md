@@ -20,6 +20,7 @@
 5. Load the images into docker
 
 > sudo docker load < monoloapi
+> ...
 
 6. Restart the docker environment
 
