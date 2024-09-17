@@ -25,7 +25,7 @@ We will be using semantic versioning (MAJOR.MINOR.PATCH)
 
 ### Good practices
 
-See [CONTRIBUTING](pages/monoloback-contributing)
+See [monoloback-contributing](pages/monoloback-contributing)
 
 # Setting-up your environment
 
