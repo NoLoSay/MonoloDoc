@@ -16,6 +16,7 @@ export class DemoService {
 ```TS
 import { Test, TestingModule } from '@nestjs/testing';
 import { DemoService } from './demo.service';
+import { RootTestModule } from '@noloback/root.test';
 
 describe('DemoService', () => {
   let service: DemoService;
@@ -23,6 +24,7 @@ describe('DemoService', () => {
   beforeEach(async () => {
     const module: TestingModule = await Test.createTestingModule({
       providers: [DemoService],
+      imports: [RootTestModule],
     }).compile();
 
     service = module.get<DemoService>(DemoService);
