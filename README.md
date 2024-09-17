@@ -25,7 +25,7 @@ We will be using semantic versioning (MAJOR.MINOR.PATCH)
 
 ### Good practices
 
-See [CONTRIBUTING.md](CONTRIBUTING.md)
+See [CONTRIBUTING](CONTRIBUTING.md)
 
 # Setting-up your environment
 
