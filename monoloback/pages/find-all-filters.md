@@ -16,6 +16,7 @@ __Sort__ _(default: 'id')_
 ```Rust
 ['id', 'zip', 'cityId', 'street', 'houseNumber', 'longitude', 'latitude', 'createdAt']
 ```
+
 __Filters__
 
 ```YML
@@ -32,7 +33,9 @@ createdAt_lte: everything created before this
 __Sort__ _(default: 'id')_
 
 ```Rust
-['id', 'zip', 'name', 'departmentId', 'longitude', 'latitude', 'createdAt']```
+['id', 'zip', 'name', 'departmentId', 'longitude', 'latitude', 'createdAt']
+```
+
 __Filters__
 ```YML
 
@@ -52,6 +55,7 @@ __Sort__ _(default: 'id')_
 ```Rust
 ['id', 'name', 'code', 'longitude', 'latitude', 'createdAt']
 ```
+
 __Filters__
 
 ```YML
@@ -70,6 +74,7 @@ __Sort__ _(default: 'id')_
 ```Rust
 ['id', 'name', 'code', 'countryId', 'longitude', 'latitude', 'createdAt']
 ```
+
 __Filters__
 
 ```YML
@@ -89,6 +94,7 @@ __Sort__ _(default: 'id')_
 ```Rust
 ['id', 'name', 'siteId', 'longitude', 'latitude', 'createdAt']
 ```
+
 __Filters__
 
 ```YML
@@ -107,6 +113,7 @@ __Sort__ _(default: 'id')_
 ```Rust
 ['id', 'name', 'createdAt']
 ```
+
 __Filters__
 
 ```YML
@@ -124,6 +131,7 @@ __Sort__ _(default: 'id')_
 ```Rust
 ['id', 'categoryId', 'name', 'createdAt']
 ```
+
 __Filters__
 
 ```YML
@@ -142,6 +150,7 @@ __Sort__ _(default: 'id')_
 ```Rust
 ['id', 'name', 'description', 'itemType', 'createdAt']
 ```
+
 __Filters__
 
 ```YML
@@ -161,6 +170,7 @@ __Sort__ _(default: 'id')_
 ```Rust
 ['id', 'type', 'name', 'birthDate', 'deathDate', 'createdAt']
 ```
+
 __Filters__
 
 ```YML
@@ -218,6 +228,7 @@ __Sort__ _(default: 'id')_
 ```Rust
 ['id', 'type', 'name', 'telNumber', 'email', 'website', 'price', 'type', 'addressId', 'createdAt']
 ```
+
 __Filters__
 
 ```YML
