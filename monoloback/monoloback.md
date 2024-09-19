@@ -2,6 +2,8 @@
 
 >[NX Modules graph](nx-graph.html#/projects/all?groupByFolder=true)
 
+>[findMany Routes](pages/find-all-filters.md)
+
 # MonoloBack Documentation 
 
 1. [Introduction](#introduction)
